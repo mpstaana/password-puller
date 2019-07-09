@@ -1,9 +1,10 @@
 #! python3
 # pw.py - a basic password locker program
 
-PASSWORDS = {'facebook': #password,
-             'twitter': #password,
-             'instagram': #password}
+PASSWORDS = {'facebook': 'fb123',
+             'twitter': 'twitter123',
+             'instagram': 'insta123'}
+# Add the accounts and their corresponding passwords in the dictionary above.
 
 import sys, pyperclip
 if len(sys.argv) < 2:
