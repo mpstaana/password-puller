@@ -12,6 +12,6 @@ A simple script written in Python which lets the user copy a password associated
 - Now your password is the last text copied on your clipboard. You can hit 'ctrl + v' to paste it wherever.
 - If you run 'pw + (account)' again it will replace the latest password you have saved in the clipboard.
 
-#Limitations
+# Limitations
 1. You can only have one password per in the clipboard at any time.
 2. Your passwords are saved in a .py file which can be edited in a text editor- meaning anyone who finds the file and opens it in edit mode will be able to see them.
